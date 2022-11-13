@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1140px;
+    height: 46px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_list {
+    display: flex;
+    gap: 0 40px;
+}
+
+.navbar_link {
+    list-style-type: none;
+    color: #150C01;
+}
+
+.navbar_link:first-child {
+    margin-left: 35px;
+    color: #736D67;
+}
+
+.navbar_link a {
+    text-decoration: none;
+    color: #736D67;
+
+}
+
+.nav_btn-a {
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: #DC780B;
+    border-radius: 5px;
+    color: white;
+    justify-self: end;
+}
+
+.nav_btn-a:hover {
+    background-color: rgb(255, 149, 0);
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+.main_text {
+    width: 555px;
+    margin-left: 150px;
+    margin-top: 162px;
+}
+
+.main_h1 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700px;
+    font-size: 48.83px;
+    margin-bottom: 42px;
+}
+
+.main_text-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 71px;
+}
+
+.main_btn-order {
+    text-decoration: none;
+    color: white;
+    padding: 20px 26px;
+    background-color: #DC780B;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.main_btn-order:hover {
+    background-color: #dc8a32;
+}
+
+.main_btn-detal {
+    padding: 20px 26px;
+    text-decoration: none;
+    border: 1.5px solid rgb(255, 222, 222);
+    border-radius: 5px;
+    color: #DC780B;
+}
+
+.main_btn-detal:hover {
+    background-color: rgb(204, 229, 252);
+}
+
+.cooking_photo {
+    width: 801px;
+    height: 670px;
+    background-image: url("/picture/CSmJnTefxM\ 1сковорода.png");
+}
+
+.aboutus {
+    display: flex;
+}
+
+.img_women {
+    width: 557px;
+    height: 500px;
+    background-image: url("/picture/FmlS61J9LP\ 1\ \(1\).png");
+    border-radius: 35px;
+    margin-left: 151px;
+    margin-top: 465px;
+}
+
+.about_us {
+    display: block;
+    margin-bottom: 10px;
+    color: #DC780B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about_text-str {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 41px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.about_text {
+    width: 487px;
+    margin-top: 550px;
+    margin-left: 100px;
+}
+
+.aboutus_text-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.aboutus_link {
+    display: inline-block;
+    margin-top: 29px;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: #DC780B;
+    border-radius: 5px;
+    color: white;
+    justify-self: end;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu_text {
+    width: 1075px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 121px;
+}
+
+.menu_title {
+    display: inline;
+    margin-bottom: 10px;
+    color: #DC780B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 692px;
+}
+
+.menu_str {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: 556px;
+}
+
+.menu_info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 159px;
+    margin-left: 346px;
+    margin-bottom: 198px;
+}
+
+.card {
+    width: 360px;
+    margin-left: 0;
+    border: 1px solid rgb(255, 225, 168);
+    border-radius: 10px;
+}
+
+.food_name {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    display: inline;
+}
+
+.foods_info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #515151;
+}
+
+.menu_btn {
+    width: 36px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #DC780B;
+    border-radius: 10px;
+    margin-right: 186px;
+}
+
+.menu_btn:hover {
+    background-color: #fd9322;
+}
+
+.foods {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px 30px;
+}
+
+.menu_btn-2 {
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid rgb(247, 198, 198);
+    margin-left: 600px;
+    margin-bottom: 153px;
+}
+
+.manu_btn-2-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: green;
+}
+
+.menu_btn-2:hover {
+    background-color: red;
+}
+
+.con_text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 749px;
+    margin-left: 345px;
+    justify-content: center;
+}
+
+.con_inp {
+    margin-left: 345px;
+    display: flex;
+}
+
+.con_inp input {
+    border: none;
+    width: 500px;
+    height: 75px;
+}
+
+.con_inp button {
+    background-color: green;
+    width: 156px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: 429px;
+    margin-top: 117px;
+}
+.home{
+    margin-left: 139px;
+}
+
+.home_title {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+footer{
+    display: flex;
+}
+.home_list-li{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+list-style-type: none;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
